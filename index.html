@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!--multi-line comment tag-->
+
+    <!DOCTYPE html>
+    <!--to browser known about the html version -->
+
+
+    <a href="">Link</a> <!-- to link the one web page to another web page (inline tag) -->
+
+
+    <abbr title="world wide web"> WWW</abbr> <!--   inline tag -->
+
+    <address>
+        <a href=""> whatsapp</a>
+    </address>
+    <!--block element its used for contact information about the page like email,url,phonenumber ,social  media(italic type of letter)  -->
+
+
+    <area></area>
+    <!--map tag kulla area tag use panalam , its  nested area tag  -->
+
+
+    <article>
+        <h1>Heading</h1>
+        <p>used to something meaningfull about the page its semantic tag </p>
+    </article> <!-- used to something meaningfull about the page its semantic tag (block tag) -->
+
+
+    <aside></aside> <!-- used to something meaningfull about the page its semantic tag (block tag)  -->
+
+
+    <audio src="horse.mp3" type="audio/mpeg">
+        Html5 only support that tag
+        <!--mp3, wav , ogg-->
+    </audio>
+
+    <!--block element-->
+
+    <body>
+        <div>its html Document used for all tag like div table form </div>
+    </body>
+
+
+    <br>
+    <!--its used for  line break  (inline element)-->
+
+
+    <button>submit</button>
+    <!--  its set the action (inline element)-->
+
+
+
+
+
+
+
+    <!--used to table 
+        col and colgroup are same purpose used to table-->
+    <col> <!-- its empty tag -->
+    <colgroup></colgroup>
+    <table border="2px">
+        <col span="1" style="background-color: brown;">
+        <tr>
+            <th>NO</th>
+            <th>NO</th>
+        </tr>
+    </table>
+
+
+    <table border="2px">
+        <colgroup span="2" style="background-color: brown;"></colgroup>
+        <tr>
+            <th>image</th>
+            <th>NO</th>
+        </tr>
+    </table>
+
+    <!-- tag is used to add a machine-readable translation of a given content (inline tag).-->
+
+    <data value="21053">Cherry Tomato</data><br>
+    <data value="21054">Beef Tomato</data><br>
+    <data value="21055">Snack Tomato</data>
+
+
+    <!--that tag used for only in graphic-->
+    <canvas></canvas>
+
+    <!--letter will be bold(inline-tag)-->
+    <p>the letter<b> will be bold</b></p>
+
+
+    <!--that tag will be insert in table tag
+its set in table caption (inline-tag)-->
+    <caption>saving amount</caption>
+
+
+
+    <!--it will be change the dierction of the content bt providing attributes to the value-->
+    <!--inline-tag-->
+    <bdo dir="rtl"> reverse</bdo>
+
+
+    <!--used for input tag-->
+    <datalist></datalist>
+
+    <!--NOt supported tags in Html-->
+    <center></center>
+    <applet></applet>
+    <!--used to java (embed)-->
+    <acronym></acronym> <!-- same for abbr -->
+    <big> </big>
+    <!--the letter will be big-->
+    <basefont>
+    <!--to set the fontSize-->
+
+    <blockquote></blockquote>
+    <base>
+    </base>
+    <cite></cite>
+    <code></code>
+    <bdi></bdi>
+
+
+    <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!---->
+   
+
+    <!--(dl,dt,dd are block tag)-->
+    <!-- something describes that part  (dl-define a describtion list)-->
+    <!--what will be describe?  (dt - define term)-->
+    <!--to describe a term/name (dd-define a describtion)-->
+    <dl>
+        <dt>Coffee</dt>
+        <dd>Black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>White cold drink</dd>
+    </dl>
+
+<!-- del-it's delete the particular content(Browsers will be strike a particular content) -->
+<!-- ins -it's insert some content (inline tag) -->
+<p>fabevy<del>technology</del><lns>technoligies</lns></p>
+
+
+<!--  something used to meaningful to the web-page-semantic tag   (block tag)-->
+<details>
+    <summary>education</summary>
+    <div>education changed poor people life style</div>
+</details>
+
+<!--definition element- which will be define inkuratha used for dfn tag  (inline tag)-->
+<p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+
+<!--to create a box ,the insert of the box to create content (block tag)-->
+<dialog open="">welcome</dialog>
+
+<!--  directory of files(tittle) ..used to unorder list .. not support in html5 -->
+<dir></dir>
+
+<!-- division or a section in an HTML document.. tag is easily styled by using the class or id attribute (block-tag)-->
+<div>
+    <h1>lorem</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam harum animi dignissimos nulla, nesciunt iure expedita praesentium sunt. Fuga laudantium exercitationem ab minus incidunt illo optio perferendis, voluptates fugit magni.</p>
+</div>
+
+<!--emphasized text-- the text will be italic (inline tag)  -->
+<p>the text will be <em>italic</em><p></p>
+
+<!--embed is empty tag-- used to some src add like audio,video,image -->
+<embed type="image-type" src="image-location">
+
+<!-- form (block tag) used to create an HTML form for user input.. form element are input,label,button,textarea, fieldset,output,select,option  -->
+<!--fieldeset tag --group related elements in a form -->
+<!--legend used to caption of the fieldset-->
+<!--label- label and input used to somethimg meaningful -->
+<!--input- to create input box for which type will be act on the value -->
+<form>
+    <fieldset>
+        <legend>form</legend>
+        <label for="content"> content</label>
+         <input type="text" id="content">
+    </fieldset>
+</form>
+
+<!-- figure tags are used diagrams, photos, code listings(block tag) -->
+<!--to caption to the figure element(block-tag)-->
+<figure>
+    <img src="">
+<figcaption>first image</figcaption>
+<figcaption>first image</figcaption>
+</figure>
+
+<!--not support in html5( color, size, and style of a text)-->
+<font></font>
+
+<!--footer is semantic tag --something meaningful to the webpage (authorship information ,copyright information ,contact information ,sitemap,back to top links,related documents) -->
+<footer>
+    <p>© 2020 Career Karma</p>
+</footer>
+
+<!--frame not support in html5 window in a frameset -->
+<!--frameset not support in html5 set of frames -->
+<frameset>
+    <frame>
+    <frame>
+</frameset>
+
+
+<!--(h1 to h6 - block tag)Html heading -->
+<h1>fabevy technology</h1>
+<h2>fabevy technology</h2>
+<h3>fabevy technology</h3>
+<h4>fabevy technology</h4>
+<h5>fabevy technology</h5>
+<h6>fabevy technology</h6>
+
+<!--head(<title> ,<style> ,<base> ,<link> ,<meta> ,<script> ,<noscript>)-->
+<head></head>
+
+<!--header is semantic tag(block element)heading tag, logo or icon ,authorship information-->
+<header></header>
+
+<!-- hr is block element - to break the content to the line-->
+<hr>
+<hr>
+
+
+<!--html is root of html document-->
+<html></html>
+
+<!--inline tag - to style the content-->
+<i>italic</i>
+<i>italic</i>
+
+<!--iframe (block tag) to embed the another web page-->
+<iframe src=""></iframe>
+
+<!--to add the image-->
+<img src="">
+
+<!--keyboard input(inline tag)-->
+<p>control<kbd>ctrl</kbd></p>
+
+<!--unorder order list ul-->
+<!--list of items (block tag) li-->
+<!--order list-->
+<ul>
+    <li>name</li>
+    <li>photo</li>
+</ul>
+<ol>
+    <li>name</li>
+    <li>photo</li>
+</ol>
+
+<!--link  to link the style sheet -->
+<link rel="stylesheet" href="">
+
+<!--semantic tag-->
+<main></main>
+
+<!---->
+<map></map>
+
+<!--to mark the specific content-->
+<p>fabevy located in <mark>pavoorchatram</mark></p>
+
+
+<!-- meta is empty tag(to set the default width of html ddocument - to scale the webpage) -->
+<meta  name="" >
+
+<!-- to set the range(inline tag) scallar measurement-->
+<meter value="2" min="0" max="3">range</meter>
+
+<!--navigation part-->
+<nav>
+    <a href="/html/">HTML</a> 
+    <a href="/css/">CSS</a> 
+    <a href="/js/">JavaScript</a> 
+    <a href="/python/">Python</a>
+</nav>
+
+<!--not support in html5-->
+<noframes></noframes>
+
+<!---->
+<noscript></noscript>
+
+<!-- which type of data to through the object tag.... video,audio,iframe ,img-->
+<!-- param is empty tag .. tag is used to define parameters for an object element. -->
+<object data=""  height="" width="">
+    <param name="" value="true">
+</object>
+
+<!--optgroup tag is used to group related options in a drop-down list-->
+<select name="cars" id="cars">
+    <optgroup label="indian Cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+    </optgroup>
+    <optgroup label="German Cars">
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+    </optgroup>
+  </select>
+<br>
+
+
+<!--picture tag used to meaningful for the source tag -->
+<picture >
+    <!-- <source media="(min-width:650px)" srcset="https://www.istockphoto.com/photos/coimbatore">
+  <source media="(min-width:465px)" srcset="i"> -->
+    <!-- <source media="(min-width:350)" srcset="1.jpg">
+    <source  media="(min-width:650px)" srcset="1.jpg"> -->
+</picture>
+<!-- <img src="1.jpg"> -->
+
+
+<!--option is block tag-->
+<select>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+</select>
+ 
+<!--p is block tag-->
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ratione quidem dolore ipsum dolorum eius incidunt reprehenderit vero necessitatibus ex repudiandae quae consectetur provident alias assumenda, libero ipsa culpa minus?</p>
+
+
+
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
