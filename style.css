@@ -1,0 +1,52 @@
+/* text-decoration , text-align , text-transform*/
+h1 {
+    text-decoration: overline;
+    text-align: center;
+    text-transform: lowercase;
+   
+  }
+  
+  h2 {
+    text-decoration: line-through;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    text-decoration: underline;
+    text-align: right;
+    text-transform: capitalize;
+  }
+  
+  h4 {
+    text-decoration: underline overline;
+    text-align: justify;
+  }
+  .decor a{
+    text-decoration: none;
+  }
+  p{
+ text-indent: 50px;
+ letter-spacing: 5px;
+line-height: 40px;
+word-spacing: 20px;
+/* white-space: wrap;
+white-space: nowrap; */
+white-space: pre;
+  }
+  
+
+  /* text-shadow: h-shadow v-shadow blur-radius  color */
+  h5{
+text-shadow: 2px 2px 4px red ;
+font-style: oblique ,italic ;
+  }
+
+
+  /* font-family: "Times New Roman", Times, serif; */
+  h6{
+    font-style: oblique ,italic ;
+    font-variant: small-caps;
+    /* font-pairing: */
+
+  }
