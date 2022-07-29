@@ -30,9 +30,9 @@ h1 {
  letter-spacing: 5px;
 line-height: 40px;
 word-spacing: 20px;
-/* white-space: wrap;
-white-space: nowrap; */
-white-space: pre;
+ white-space: wrap; 
+/* white-space: nowrap;  */
+/* white-space: pre; */
   }
   
 
@@ -49,4 +49,14 @@ font-style: oblique ,italic ;
     font-variant: small-caps;
     /* font-pairing: */
 
+  }
+
+
+  /* box-model */
+  div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
   }
