@@ -130,8 +130,8 @@ its set in table caption (inline-tag)-->
     <blockquote></blockquote>
     <base>
     </base>
-    <cite></cite>
-    <code></code>
+    <!-- <cite></cite>  italic font-->
+    <code>default monospace font</code> 
     <bdi></bdi>
 
 
@@ -349,7 +349,7 @@ its set in table caption (inline-tag)-->
 
     ------------------------------------------------------------------------------------------------------
     <!------------------------------------------------------------------------------------------------------>
-    <!--1.preformatted text- (inline tag)-->
+    <!--1.preformatted text- (block- element)-->
     <pre>
     Text in a pre element
     is displayed in a fixed-width
@@ -358,11 +358,11 @@ its set in table caption (inline-tag)-->
     line breaks
     </pre>
 
-    <!--2.progress-to set the range(inline-tag) -->
+    <!--2.progress-to set the range(inline-element) -->
     <label for="file">Pending task percentage:</label>
-    <progress id="file" value="50" max="100"> 32% </progress>
+    <progress id="file" value="50" max="100"> </progress>
 
-    <!--3.quotation tag(inline-tag)to create the quotation to particular content-->
+    <!--3.quotation tag(inline-element)to create the quotation to particular content-->
     <h1>My name is <q>Mariselvam</q></h1>
 
     <!--4,5,6.ruby,rt,rp tags-->
@@ -372,17 +372,17 @@ its set in table caption (inline-tag)-->
         <rp>)</rp>
     </ruby>
 
-    <!--7 .its also same as delete tag to strike the particular content(inline tag)-->
+    <!--7 .its also same as delete tag to strike the particular content(inline element)-->
     <h1>FAbevy<s>technoligies</s></h1>
 
-    <!--8.sample output from a computer program(to message through the computer)-->
+    <!--8.sample output from a computer program(to message through the computer(inline-element))-->
     <p><samp>File not support</samp> to select another option</p>
 
     <!--9.Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.-->
     <!---->
     <script src="script.js"></script>
 
-    <!--10. section tag defines a section in a document(block-tag). -->
+    <!--10. section tag defines a section in a document(block-element). -->
     <section>
         <h1>heading</h1>
         <p>To describe the heading</p>
@@ -395,7 +395,7 @@ its set in table caption (inline-tag)-->
 
     </select>
 
-    <!-- 12 .small tag defines smaller text(inline tag) (like copyright and other side-comments)-->
+    <!-- 12 .small tag defines smaller text(inline element) (like copyright and other side-comments)-->
     <small>Welcome</small>
 
     <!--13.source tag used for video,audio,image-->
@@ -403,7 +403,7 @@ its set in table caption (inline-tag)-->
         <source type="" src="">
     </audio>
 
-    <!--14.span (inline tag) used to style the particular letter or content-->
+    <!--14.span (inline element) used to style the particular letter or content-->
     <h1><span style="color:rgb(66,133,244) ;">G</span><span style="color: rgb(234,67,53);">O</span><span
             style="color:rgb(251, 188,5) ;">O</span><span style="color:rgb(66,133,244) ;">G</span><span
             style="color:rgb(52,168,83) ;">L</span><span style="color:rgb(234,67,53) ;">E</span></h1>
@@ -412,20 +412,20 @@ its set in table caption (inline-tag)-->
     <!--15.srtike tag not support in html5-->
     <strike></strike>
 
-    <!--16.strong tag (inline tag) its same b tag, the letter or content will be bold-->
+    <!--16.strong tag (inline element) its same b tag, the letter or content will be bold-->
     <p>HEllo <strong>Everyone</strong></p>
 
-    <!--17.style tag . to style the all html content-->
-    <h1><span style="color:rgb(66,133,244) ;">G</span><span style="color: rgb(234,67,53);">O</span><span
-            style="color:rgb(251, 188,5) ;">O</span><span style="color:rgb(66,133,244) ;">G</span><span
-            style="color:rgb(52,168,83) ;">L</span><span style="color:rgb(234,67,53) ;">E</span></h1>
+    <!--17.style tag . to style the all html content (used for internal and external style to the html content )-->
+    <style>
+        
+    </style>
 
     <!--18.svg tag- used for graphics ..SVG has several methods for drawing paths, boxes, circles, text, and graphic images. -->
     <svg width="100" height="100">
         <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
     </svg>
 
-    <!--19.summary ..(semantic tag) tag defines a visible heading for the <details> element-->
+    <!--19.summary ..(semantic element) tag defines a visible heading for the <details> element-->
     <details>
         <summary>lorem</summary>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quae blanditiis sunt animi quo molestiae
@@ -433,13 +433,13 @@ its set in table caption (inline-tag)-->
             laboriosam voluptate?</p>
     </details>
 
-    <!--20.Subscript tag -used to down the area of text or the letter will be small(inline-tag)-->
+    <!--20.Subscript tag -used to down the area of text or the letter will be small(inline-element)-->
     <span>H</span><sub>2</sub><span>O</span><br>
 
-    <!--21 .superscript tag-used to under the area of text (inline-tag)-->
+    <!--21 .superscript tag-used to under the area of text (inline-element)-->
     <span>(A+B)</span><sup>2</sup><span>=A</span><sup>2</sup><span>+2AB</span><span>+B</span><sup>2</sup>
 
-    <!--22.table is define as create table for html (block tag)-->
+    <!--22.table is define as create table for html (block element)-->
     <!--23.tr is define as table row-->
     <!--24.th is define as table head-->
     <!--25.td is define as table data-->
@@ -472,7 +472,7 @@ its set in table caption (inline-tag)-->
     </table>
 
 
-<!--29.textarea tag to create the box for user review (block tag)-->
+<!--29.textarea tag to create the box for user review (block element)-->
 <h1>please send review</h1>
 <textarea ></textarea>
 
@@ -490,7 +490,7 @@ its set in table caption (inline-tag)-->
     }
     </script>
 <br>
-<!--31.time tag(inline tag)used to mention the time-->
+<!--31.time tag(inline element)used to mention the time-->
 <span>everyday i will spend</span> <time>1:00</time>to <time>2:00</time> <span>in social medias.</span>
 
 <!--32.title tag. the tag content display in webpage top-the tag inside of the head tag-->
@@ -513,17 +513,17 @@ its set in table caption (inline-tag)-->
     <li>two</li>
 </ul>
 
-<!--36.under line  tag (inline tag)-->
+<!--36.under line  tag (inline element)-->
 <h1>this is <u>underline</u> tag</h1>
 
-<!--37.var tag (inline tag) italic style os tag// variable in programming or in a mathematical expression.-->
+<!--37.var tag (inline element) italic style of var tag// variable in programming or in a mathematical expression.-->
 <h1>1/2 <var>b * h</var></h1>
 
 <!--38.video tag -->
 <video src="" width="" height=""></video>
 
-<!--39.wbr tag--The <wbr> (Word Break Opportunity) tag specifies where in a text it would be ok to add a line-break.-->
-<!-- <p>To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.</p> -->
+<!--39.wbr tag--The <wbr>(empty tag) (Word Break Opportunity) tag specifies where in a text it would be ok to add a line-break.-->
+<p>To learn AJAX, you must be familiar with the XML   <wbr>Http<wbr> Request Object.</p>
 
 
 
